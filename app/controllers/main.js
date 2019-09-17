@@ -3,6 +3,9 @@ $(document).ready(function () {
 
     getListUser();
 
+    function kiemTraXungDot(){
+        console.log("kiem tra tinh xung dot");
+    }
 
     function getListUser() {
         danhSachNguoiDung.layDanhSachNguoiDung()
